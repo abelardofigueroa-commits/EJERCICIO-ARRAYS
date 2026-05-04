@@ -1,0 +1,27 @@
+using UnityEngine;
+
+public class player6 : MonoBehaviour
+{
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    int[] numbers = { 1, 2, 3, 4, 5 };
+
+    void Start()
+    {
+        int first = numbers[0];
+
+
+
+        int last = numbers[numbers.Length - 1];
+
+
+        Debug.Log("First number: " + first);
+        Debug.Log("Last number: " + last);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
