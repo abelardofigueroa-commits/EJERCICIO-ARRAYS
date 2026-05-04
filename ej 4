@@ -1,0 +1,25 @@
+using NUnit.Framework;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class player4 : MonoBehaviour
+{
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+   List<string> animes = new List<string>();  
+    void Start()
+    {
+        animes.Add("Gargola");
+        animes.Add("Curriculum");
+        animes.Add("Perro");
+        animes.Add("Chile");
+
+        Debug.Log("El total de rivales son: " + animes.Count); 
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
