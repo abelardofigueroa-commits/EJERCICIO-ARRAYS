@@ -1,0 +1,28 @@
+using NUnit.Framework;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class player3 : MonoBehaviour
+{
+    
+    
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+  
+    
+    int[] vidas = new int[3] { 100, 75, 50 };
+    List<int> Newlist = new List<int>();
+    void Start()
+    {
+        Newlist.Add(12);
+        Newlist.Add(15);
+
+
+        Debug.Log("Esto son todos los elementos: " + Newlist.Count);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
