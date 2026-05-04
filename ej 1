@@ -1,0 +1,26 @@
+using UnityEngine;
+
+public class player : MonoBehaviour
+{
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    int[] Slot = new int[5];
+
+
+
+
+    void Start()
+    {
+        Slot[0] = 10;
+        Slot[1] = 20;
+        Slot[2] = 30;
+        Slot[3] = 40;
+        Slot[4] = 50;
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
